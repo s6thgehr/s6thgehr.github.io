@@ -1,0 +1,22 @@
+{
+  "@context": "https://w3id.org/did/v1",
+  "id": "did:web:s6thgehr.github.io",
+  "publicKey": [
+    {
+      "id": "did:web:s6thgehr.github.io#04d749daec952da293e7e29bfd38fc8b0c5a55d70434513ad742597ca70de797377290ea30db926d8ddc73f46c66f4e38515c740cff821e42dc8a66be274e887b6",
+      "type": "Secp256k1VerificationKey2018",
+      "controller": "did:web:s6thgehr.github.io",
+      "publicKeyHex": "04d749daec952da293e7e29bfd38fc8b0c5a55d70434513ad742597ca70de797377290ea30db926d8ddc73f46c66f4e38515c740cff821e42dc8a66be274e887b6"
+    }
+  ],
+  "assertionMethod": [
+    "did:web:s6thgehr.github.io#04d749daec952da293e7e29bfd38fc8b0c5a55d70434513ad742597ca70de797377290ea30db926d8ddc73f46c66f4e38515c740cff821e42dc8a66be274e887b6"
+  ],
+  "authentication": [
+    {
+      "type": "Secp256k1SignatureAuthentication2018",
+      "publicKey": "did:web:s6thgehr.github.io#04d749daec952da293e7e29bfd38fc8b0c5a55d70434513ad742597ca70de797377290ea30db926d8ddc73f46c66f4e38515c740cff821e42dc8a66be274e887b6"
+    }
+  ]
+}
+
